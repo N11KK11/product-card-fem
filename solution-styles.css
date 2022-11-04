@@ -1,0 +1,149 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body 
+{
+    width: 100%;
+    height: 100vh;
+	background-color: var(--light-bg);
+}
+
+:root {
+   --light-bg: #f3eae3;
+   --button-green: #3d8168;
+   --dark-button: #254d3e;
+   --text-green: #3a7d64;
+   --text-black: #1c2229;
+   --dark-grayish: hsl(228, 12%, 48%);
+}
+
+/* Typography */
+ h1 {
+     font-family: "Fraunces";
+     margin: 18px;
+ }
+
+ .perfume {
+    letter-spacing: 0.6ch;
+    text-transform: uppercase;
+    margin: 18px;
+    color: var(--dark-grayish);
+    font-family: 'Montserrat';
+}
+
+.description {
+    font-family: 'Montserrat', sans-serif;
+    margin: 18px;
+    color: var(--dark-grayish);
+    font-size: 14px;
+}
+
+.discount-price {
+    color: var(--text-green);
+    font-size: 32px;
+    font-family: 'Fraunces';
+    margin-left: 18px;
+}
+
+.discount-price span {
+    color: var(--dark-grayish);
+    font-size: 14px;
+    font-family: 'Montserrat';
+    text-decoration: line-through;
+    margin-left: 18px;
+    text-align: center;
+    position: relative;
+    top: -8px;
+}
+
+
+.pre-discount {
+    text-decoration: line-through;
+}
+
+
+/* Structural */
+
+.center {
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+}
+
+
+.product-card {
+    display: flex;
+    height: 428px;
+    max-width: 572px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 22px;
+    overflow: hidden;
+}
+
+.left {
+
+}
+
+.right {
+    text-align: left;
+    margin: 12px;
+}
+
+.cart-btn {
+    background-color: var(--button-green);
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    width: 80%;
+    color: #fff;
+    margin-left: 18px;
+    margin-top: 24px;
+    padding: 12px;
+    border:none;
+}
+
+.cart-btn:active {
+    background-color: var(--dark-button);
+}
+/* Image Edit */
+.image-edit {
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+
+/* Responsive */
+
+@media only screen and (max-width: 768px) {
+    body {
+      
+    }
+
+    .product-card {
+        flex-direction: column;
+        width: 345px;
+        height: 640px;
+    }
+
+    .image-edit {
+        max-height: 40%;
+        width: 100%;
+        border-bottom-left-radius: 0%;
+        object-fit: cover;
+    }
+
+    .right {
+       
+        width: 100%;
+        height: 100%;
+
+    }
+/*text  TBC*/
+   
+}
