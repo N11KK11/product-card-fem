@@ -153,3 +153,15 @@ transform: translate(-50%, -50%);
 /*text  TBC*/
    
 }
+
+.description {
+    font-size: 0.875rem;
+}
+
+.discount-price {
+    font-size: 2rem;
+}
+
+.discount-price span {
+    font-size: 0.875rem;
+}
