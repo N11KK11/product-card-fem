@@ -112,6 +112,11 @@ transform: translate(-50%, -50%);
     background-color: var(--dark-button);
 	cursor: pointer;
 }
+
+.cart-btn:hover {
+	cursor: pointer;
+}
+
 /* Image Edit */
 .image-edit {
     border-bottom-left-radius: 12px;
