@@ -40,6 +40,7 @@ body
     margin: 18px;
     color: var(--dark-grayish);
     font-size: 0.875rem;
+    letter-spacing: 0.1em;
 }
 
 .discount-price {
