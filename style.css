@@ -32,25 +32,26 @@ body
     margin: 18px;
     color: var(--dark-grayish);
     font-family: 'Montserrat';
+	 font-size: 0.75rem;
 }
 
 .description {
     font-family: 'Montserrat', sans-serif;
     margin: 18px;
     color: var(--dark-grayish);
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 .discount-price {
     color: var(--text-green);
-    font-size: 32px;
+    font-size: 2rem;
     font-family: 'Fraunces';
     margin-left: 18px;
 }
 
 .discount-price span {
     color: var(--dark-grayish);
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family: 'Montserrat';
     text-decoration: line-through;
     margin-left: 18px;
@@ -97,7 +98,7 @@ transform: translate(-50%, -50%);
 .cart-btn {
     background-color: var(--button-green);
     border-radius: 8px;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family: 'Montserrat';
     font-weight: bold;
     width: 80%;
@@ -152,16 +153,4 @@ transform: translate(-50%, -50%);
     }
 /*text  TBC*/
    
-}
-
-.description {
-    font-size: 0.875rem;
-}
-
-.discount-price {
-    font-size: 2rem;
-}
-
-.discount-price span {
-    font-size: 0.875rem;
 }
