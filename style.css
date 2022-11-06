@@ -110,6 +110,7 @@ transform: translate(-50%, -50%);
 
 .cart-btn:active {
     background-color: var(--dark-button);
+	cursor: pointer;
 }
 /* Image Edit */
 .image-edit {
