@@ -137,6 +137,7 @@ transform: translate(-50%, -50%);
         flex-direction: column;
         width: 345px;
         height: 640px;
+	margin: 20px 30px;
     }
 
     .image-edit {
